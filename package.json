@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "release": "node publish"
   },
   "eslintConfig": {
     "extends": [
@@ -24,8 +25,7 @@
       "react-app/jest"
     ]
   },
-  "release": "node publish",
-  "browserslist": {
+    "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
